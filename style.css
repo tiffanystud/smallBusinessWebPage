@@ -1,0 +1,48 @@
+:root {
+    --fontSize16: 16px;
+    --fontStyle: Roboto-Regular;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("material/font/Roboto-Regular.ttf")
+}
+
+body {
+    margin: 0;
+    font-family: var(--fontStyle);
+}
+
+/* -- header -- */
+header {
+    background-color: steelblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#headerContentContainer {
+    width: calc(100% - 10%);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
